@@ -57,6 +57,7 @@ public class Question4 {
 
                 case 4:  
                     System.out.println("Thank you for using our service.Do visit again.");
+                    sc.close();
                     System.exit(0); 
 
                 default:
@@ -65,5 +66,6 @@ public class Question4 {
             }
             System.out.println();
         }
+        
     }
 }
