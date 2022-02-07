@@ -54,7 +54,7 @@ public class Question9 {
 	  	    }
 	  	}
 	  	// return (sum+dp[dp.length-1][0])/2;
-	  	System.out.println((sum+dp[dp.length-1][0])/2);
+	  	System.out.println("The user can collect maximum value as : "+(sum+dp[dp.length-1][0])/2);
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

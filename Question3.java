@@ -18,6 +18,7 @@ public class Question3 {
             if(array[i] != key)
                 arr.add(array[i]);
         }
-        System.out.println(Arrays.toString(arr.toArray()));
+        System.out.println("Before : " +Arrays.toString(array));
+        System.out.println("After :" +Arrays.toString(arr.toArray()));
     }
 }

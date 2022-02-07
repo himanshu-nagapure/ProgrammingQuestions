@@ -33,7 +33,7 @@ class Question1 {
             // else
             //     consonants++;
       }
-  
+      System.out.println(line);
       System.out.println("Vowels: " + vowels);
       System.out.println("Spaces: " + spaces);
       System.out.println("Consonants: " + consonants);

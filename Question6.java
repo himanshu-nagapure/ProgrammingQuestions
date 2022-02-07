@@ -22,6 +22,6 @@ public class Question6 {
         Scanner scanner = new Scanner(System.in);
         int steps = scanner.nextInt();
         scanner.close();
-        System.out.println(countWays(steps));
+        System.out.println("Total ways in which the frog can reach the top is "+countWays(steps));
     }
 }

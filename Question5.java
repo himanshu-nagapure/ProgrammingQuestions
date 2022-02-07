@@ -14,16 +14,16 @@ public class Question5 {
 
         int numberOfDigits = number.length();
         if(numberOfDigits%2 != 0){
-            System.out.println("Not a Tech number.");
+            System.out.println("Number "+number+" is not a Tech number.");
         }else{
             int part1 = Integer.parseInt(number.subSequence(0, number.length()/2).toString());
             int part2 = Integer.parseInt(number.subSequence(number.length()/2, number.length()).toString());
 
             int finalNumber = (part1+part2)*(part1+part2);
             if(finalNumber == Integer.parseInt(number))
-                System.out.println("Number is tech number");
+                System.out.println("Number "+number+" is tech number");
             else
-            System.out.println("Not a Tech number.");
+            System.out.println("Number "+number+" is not a Tech number.");
         }
     }
 }

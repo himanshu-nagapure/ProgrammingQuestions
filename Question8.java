@@ -25,6 +25,8 @@ public class Question8 {
                 }
            }
        }
-       System.out.println(lcs);
+       System.out.println("ABCDGH");
+       System.out.println("AEDFHR");
+       System.out.println("Longest common subsequence is "+lcs+" with length "+lcs.length());
     }
 }
