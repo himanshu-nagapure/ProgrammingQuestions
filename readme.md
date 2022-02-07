@@ -40,5 +40,6 @@ Question 9: Optimal Strategy For A Game.You play against an opponent in an alter
 Level : Medium 2                                        
 Question 10: Spiral matrix
 
-![image](https://user-images.githubusercontent.com/98870779/152598644-4833c710-e69b-497f-84fa-25360f6a7a07.png)
+![image](https://user-images.githubusercontent.com/98870779/152730653-490e50a6-7050-4b03-b417-f24168ba7e53.png)
+
 
